@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+}
+
+.container{
+    width: 92%;
+    margin: auto;
+    margin-top: 10px;
+    background-color: rgb(163, 215, 247);
+}
+
+.heading{
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.form-items{
+    width: 100%;
+    padding: 1.5rem;
+    margin: auto;
+}
+
+.name{
+    display: flex;
+    flex-wrap: wrap;
+}
+.fullname{
+    margin-right: 50px;
+}
+.fullname,.date,.gender,.phone,.services,.account,.document,.documentUpload, label{
+    margin-bottom: 15px;
+}
+
+input, select{
+    margin-left: 10px;
+}
+
+select{
+    letter-spacing: .07rem;
+}
+
+.fullname input,.phone input{
+    width: 180px;
+}
+
+.photo{
+    padding: 3px;
+}
+
+input,select{
+    padding: 8px 8px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+select{
+    background-color: rgb(235, 235, 235);
+}
+
+button{
+    background-color: rgb(245, 33, 5);
+    border: none;
+    border-radius: 5px;
+    padding: .7rem;
+    font: 1em sans-serif;
+    color: aliceblue;
+    letter-spacing: .1rem;
+    cursor: pointer;
+}
+
+span{
+    color: red;
+    display: block;
+    margin-top: 5px;
+    width: 80%;
+}
+
+.selectedDocument{
+    margin-left: 10px;
+}
+
+.document{
+    display: flex;
+    margin-bottom: 0;
+}
+
+.document label{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.documentUpload{
+    margin-top: 5px;
+}
+
+.user-container{
+    width: 90%;
+    background-color: rgb(158, 246, 216);
+    margin: 15px auto;
+}
+.image{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.image img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.user-details{
+    margin: 20px auto;
+    width: 70%;
+}
+
+.user-container h4{
+    margin-top: 12px;
+    
+}
+
+li{
+    margin-top: 12px;
+}
+
+.form{
+    padding-bottom: 20px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+h4{
+    letter-spacing: .03rem;
+}
